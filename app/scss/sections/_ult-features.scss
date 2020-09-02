@@ -1,0 +1,44 @@
+.ult-features {
+  margin-bottom: 17rem;
+  &__content {
+    margin-bottom: 6rem;
+  }
+  &__head {
+    margin-bottom: 6.5rem;
+  }
+  &__phone {
+    background: url("../images/ult_features__bg.png") no-repeat;
+    background-size: contain;
+    background-position: center right;
+    img {
+      @include aside-img(465px);
+    }
+  }
+  &__button {
+    padding: 1.2em 3.6em;
+  }
+}
+
+//  >= 576px
+@media (min-width: 576px) {
+  .ult-features {
+    &__phone {
+      img {
+        max-width: calc(465px + 100px);
+      }
+    }
+  }
+}
+// >= 768px
+@media (min-width: 768px) {
+  .ult-features {
+    &__content {
+      margin-bottom: initial;
+    }
+    &__phone {
+      img {
+        max-width: calc(465px + 200px);
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.our-app {
+  &__content {
+    margin-bottom: 6rem;
+  }
+  &__head {
+    margin-bottom: 5rem;
+  }
+  &__store > img:first-child {
+    margin-right: 3rem;
+  }
+  &__img {
+    position: relative;
+    img {
+      display: block;
+      margin: 0 auto;
+      @include aside-img(727px);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -15%;
+      left: 16%;
+      background: url("../images/icons/circle_red.png");
+      display: block;
+      width: 26px;
+      height: 26px;
+      z-index: 2;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -23%;
+      right: 9%;
+      background: url("../images/icons/circle_red.png");
+      display: block;
+      width: 26px;
+      height: 26px;
+      z-index: 2;
+    }
+  }
+}
+
+//  >= 576px
+@media (min-width: 768px) {
+  .our-app {
+    &__content {
+      margin-bottom: initial;
+    }
+  }
+}
+
+//  >= 992px
+@media (min-width: 992px) {
+  .our-app {
+    &__img {
+      img {
+        transform: translateX(30px);
+      }
+    }
+  }
+}

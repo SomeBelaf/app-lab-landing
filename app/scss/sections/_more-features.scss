@@ -1,0 +1,36 @@
+.more-features {
+  margin-bottom: 11.5rem;
+  &__head {
+    margin-bottom: 10rem;
+  }
+  &__title {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      width: 1px;
+      height: 100%;
+      background-color: #b9b9b8;
+    }
+  }
+}
+
+// >= 992px
+@media (min-width: 992px) {
+  .more-features {
+    &__title {
+      padding-right: 6rem;
+    }
+    &__sup-title {
+      p {
+        padding-left: 3rem;
+      }
+    }
+    .features-box {
+      margin-bottom: 0;
+    }
+  }
+}

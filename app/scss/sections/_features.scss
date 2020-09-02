@@ -1,0 +1,28 @@
+.features {
+  margin-bottom: 20rem;
+  &__phone {
+    background: url("../images/features_bg.svg") no-repeat center;
+    background-size: contain;
+    background-position-y: 75%;
+    img {
+      max-width: 300px;
+    }
+  }
+  .sections-suptitle {
+    margin-bottom: 9rem;
+  }
+}
+//  >= 992px
+@media (min-width: 992px) {
+  .features__phone {
+    img {
+      max-width: initial;
+    }
+  }
+}
+//  >= 1200px
+@media (min-width: 1200px) {
+  .features__phone {
+    transform: translateX(-75px);
+  }
+}

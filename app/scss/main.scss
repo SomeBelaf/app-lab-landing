@@ -1,0 +1,56 @@
+@import 'libs';
+@import 'fonts';
+@import 'variables'; 
+@import 'mixins';
+@import 'global';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 50%;
+};
+body{
+    @include text(1.6rem);
+    background-color: $bg_color;
+}
+//  >= 576px
+@media (min-width: 576px) {
+    html{
+        font-size: 62.5%;
+    }
+}
+
+/*
+//  >= 576px
+@media (min-width: 576px) {
+}
+// >= 768px
+@media (min-width: 768px) {
+}
+//  >= 992px
+@media (min-width: 992px) {
+}
+//  >= 1200px
+@media (min-width: 1200px) {
+}
+*/
+
+
+@import 'sections/header';
+@import 'sections/company';
+@import 'sections/features';
+@import 'sections/more-features';
+@import 'sections/technology';
+@import 'sections/advantages';
+@import 'sections/ult-features';
+@import 'sections/services';
+@import 'sections/team';
+@import 'sections/questions';
+@import 'sections/our-app';
+@import 'sections/footer';
+
+
+
+@import 'media'; 

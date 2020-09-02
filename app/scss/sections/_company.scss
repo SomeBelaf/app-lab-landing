@@ -1,0 +1,19 @@
+.company {
+  margin-bottom: 16rem;
+  &__title {
+    margin-bottom: 3rem;
+    h4 {
+      color: $head_title_color;
+    }
+  }
+  &__img > img {
+    margin: 1.5rem 2rem;
+  }
+}
+
+//  >= 1200px
+@media (min-width: 1200px) {
+  .company_img {
+    margin: 0 2rem;
+  }
+}

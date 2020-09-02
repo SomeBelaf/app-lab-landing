@@ -1,0 +1,33 @@
+.questions {
+    margin-bottom: 11rem;
+  &__head {
+    text-align: center;
+    margin-bottom: 6.5rem;
+  }
+}
+.some-question {
+  margin-bottom: 1rem;
+  max-width: 94.5rem;
+  padding: 0.7rem 0;
+  background-color: $questions_color;
+  &__top {
+    position: relative;
+  }
+  &__bottom {
+    display: none;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    transition: all $slow_trans;
+  }
+  &__title {
+    @include title_for_text($head_title_color);
+    width: calc(100% - 30px);
+  }
+}
+
+//  >= 992px
+@media (min-width: 992px) {
+  .some-question {
+    padding: 0.7rem 5rem;
+  }
+}

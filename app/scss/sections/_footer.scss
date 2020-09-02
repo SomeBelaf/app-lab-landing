@@ -1,0 +1,16 @@
+.footer {
+  background-color: $footer_color;
+  &__nav {
+    margin-bottom: 5rem;
+  }
+  &__social{
+    margin-bottom: 8rem;
+  }
+  &__copyright{
+    margin-bottom: 12rem;
+  }
+  .logo--center {
+    margin: 8rem 0 2rem;
+    text-align: center;
+  }
+}

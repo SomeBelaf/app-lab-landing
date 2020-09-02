@@ -1,0 +1,43 @@
+@mixin logo {
+    font-family: "Poppins-Bold";
+    font-size: 3rem;
+    color: $logo_color;
+    line-height: 1.5em;
+}
+
+@mixin section-title($fs) {
+    font-family: 'Poppins-SemiBold';
+    color: $head_title_color;
+    font-size: $fs;
+    line-height: 1.3em;
+}
+@mixin title_for_text($color) {
+    font-family: 'Poppins-SemiBold';
+    color: $color;
+    font-size: 2rem;
+    line-height: 2.9em;
+    
+}
+@mixin text($fs) {
+    color: $text_color;
+    font-family: 'Poppins-Regular';
+    font-size: $fs;
+    line-height: 1.65em;
+}
+@mixin some-text($fs) {
+    color: $head_title_color;
+    font-size: $fs;
+    line-height: 1.5em;
+}
+@mixin button-text {
+    color: $bg_color;
+    font-family: "Poppins-Bold";    
+    line-height: 1.5rem;
+}
+@mixin aside-img ($max-width) {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: $max-width;
+}
