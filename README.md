@@ -9,5 +9,8 @@ For animations used libraries:
  * **wow.js** - [Link to WoW.js site](https://wowjs.uk/)
  
 To create a project, you need to open the console in the desired folder and enter **npm init** into the console.
+
 To change the project, enter into the console **gulp default**.
+
 Enter **gulp build** to create the *dist* folder.
+
