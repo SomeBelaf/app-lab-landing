@@ -4,9 +4,10 @@ One page landing, сreated with **HTML**, **SCSS** and **JS**.
 
 **Gulp** - [Link to Gulp site](https://gulpjs.com/)
 
-For animations used libraries:
+Libraries used in the project:
  * **Animate.css** - [Link to Animate.css site](https://animate.style/)
- * **wow.js** - [Link to WoW.js site](https://wowjs.uk/)
+ * **WoW.js** - [Link to WoW.js site](https://wowjs.uk/)
+ * **Slick** - [Link to Slick site](https://kenwheeler.github.io/slick/)
  
 To create a project, you need to open the console in the desired folder and enter **npm init** into the console.
 
