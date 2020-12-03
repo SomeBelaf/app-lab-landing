@@ -1,6 +1,6 @@
 One page landing, сreated with **HTML**, **SCSS** and **JS**.
 
-**Live demo** - https://portfolio-applab.000webhostapp.com/
+**Live demo** - https://someimya.github.io/app-lab-landing/dist/index.html
 
 **Bootstrap 4** - https://getbootstrap.com/
 
