@@ -1,6 +1,6 @@
 One page landing, сreated with **HTML**, **SCSS** and **JS**.
 
-**Live demo** - https://somebelaf.github.io/app-lab-landing/app/index.html
+**Live demo** - https://somebelaf.github.io/app-lab-landing/dist/index.html
 
 **Bootstrap 4** - https://getbootstrap.com/
 
